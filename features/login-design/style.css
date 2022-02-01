@@ -1,0 +1,373 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * Universal styles
+ * =============================================================
+ */
+html {
+    --theme-color-primary: #2271b1;
+    --theme-color-secondary: #135e96;
+    --theme-color-text: #333333;
+    --theme-color-background: #ffffff;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    border: 1px solid #d8d9dd;
+    box-shadow: none;
+}
+
+input[type="checkbox"] {
+    border-radius: 2px;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+}
+
+input[type="checkbox"]:checked:before {
+    content: url("data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%232271b1%27%2F%3E%3C%2Fsvg%3E");
+}
+
+input[type="radio"]:checked:before {
+    background-color: var(--theme-color-primary);
+}
+
+input[type="checkbox"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="radio"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+select:focus,
+textarea:focus {
+    border-color: var(--theme-color-primary);
+    box-shadow: 0 0 0 1px var(--theme-color-primary);
+    outline: 2px solid transparent;
+}
+
+/* =============================================================
+ * Login body
+ * =============================================================
+ */
+body {
+    background: var(--theme-color-background);
+    color: var(--theme-color-text);
+}
+
+body:after {
+    background-image: url(background.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    content: '';
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    right: -50px;
+    bottom: -50px;
+    transform: rotate(-30deg);
+    opacity: 0.5;
+}
+
+@media all and (max-width: 1023px) {
+    body:after {
+        display: none;
+    }
+}
+
+/* =============================================================
+ * Login base
+ * =============================================================
+ */
+#login,
+.login-action-confirm_admin_email #login {
+    width: auto;
+    max-width: 380px;
+    margin: 5% 5% 5% 20%;
+    padding: 50px 0;
+}
+
+.interim-login #login {
+    margin: 0;
+    padding: 25px;
+}
+
+@media all and (max-width: 1280px) {
+    #login,
+    .login-action-confirm_admin_email #login {
+        margin: 50px;
+        padding: 0;
+    }
+}
+
+/* =============================================================
+ * Login logo
+ * =============================================================
+ */
+.login h1 a {
+    background-image: url(logo.svg);
+    background-size: 84px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    margin: 0 0 60px;
+    padding: 0;
+}
+
+/* =============================================================
+ * Login body
+ * =============================================================
+ */
+.login .sub-title {
+    color: var(--theme-color-secondary);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.login .title {
+    font-size: 56px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.login .page-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* =============================================================
+ * Login messages
+ * =============================================================
+ */
+.login #login_error,
+.login .message,
+.login .success {
+    background-color: #39c0ed;
+    color: #ffffff;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .11), 0 0 4px rgba(18, 25, 97, .0405344);
+}
+
+.login #login_error a,
+.login .message a,
+.login .success a,
+.login #login_error a:hover,
+.login .message a:hover,
+.login .success a:hover {
+    color: #ffffff;
+}
+
+.login #login_error {
+    background-color: #f93154;
+}
+
+.login .success {
+    background-color: #00b74a;
+}
+
+/* =============================================================
+ * Login form
+ * =============================================================
+ */
+.login form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    overflow: initial;
+}
+
+.login form:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.login form label {
+    font-size: 16px;
+}
+
+.login form label:not([for="rememberme"]):not([for="pw-weak"]) {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login form input:not([type="submit"]):not([type="checkbox"]):not([type="radio"]) {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #d8d9dd;
+    font-family: inherit;
+    font-weight: 500;
+    margin: 0 0 30px;
+    padding: 5px 10px;
+}
+
+/* =============================================================
+ * Show password feature
+ * =============================================================
+ */
+.js.login input.password-input,
+.js.login-action-rp form .input,
+.js.login-action-rp input[type="text"] {
+    padding-right: 44px !important;
+}
+
+.login .button.wp-hide-pw {
+    min-width: 44px;
+    min-height: 44px;
+}
+
+/* =============================================================
+ * Button theme
+ * =============================================================
+ */
+.wp-core-ui .button {
+    font-weight: 700;
+    margin: 0 6px 6px 0;
+    border: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.wp-core-ui .button.button-primary {
+    background: var(--theme-color-primary);
+    margin: 0 6px 6px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.11), 0 0 4px rgba(18, 25, 97, 0.0405344);
+}
+
+.wp-core-ui .button.button-primary:focus,
+.wp-core-ui .button.button-primary:hover {
+    background: var(--theme-color-secondary);
+}
+
+.wp-core-ui .button.button-secondary {
+    color: var(--theme-color-primary);
+}
+
+.wp-core-ui .button.button-secondary:focus,
+.wp-core-ui .button.button-secondary:hover {
+    color: var(--theme-color-secondary);
+}
+
+.wp-core-ui .button-group.button-small .button,
+.wp-core-ui .button.button-small {
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.wp-core-ui .button-group.button-large .button,
+.wp-core-ui .button.button-large {
+    font-size: 16px;
+    padding: 5px 36px;
+}
+
+/* =============================================================
+ * Buttons and remember me checkbox
+ * =============================================================
+ */
+.login .button-primary {
+    float: left;
+}
+
+.login form .forgetmenot {
+    width: 225px;
+    max-height: 26px;
+    padding: 10px 0 10px 24px;
+    float: right;
+}
+
+@media all and (max-width: 480px) {
+    .login .button-primary {
+        float: none;
+    }
+
+    .login form .forgetmenot {
+        padding: 10px 0 20px;
+        float: none;
+    }
+}
+
+/* =============================================================
+ * Links
+ * =============================================================
+ */
+.login a,
+.login #backtoblog a,
+.login #nav a,
+.login h1 a {
+    color: var(--theme-color-text);
+}
+
+.login a:hover,
+.login #backtoblog a:hover,
+.login #nav a:hover,
+.login h1 a:hover {
+    color: var(--theme-color-secondary);
+}
+
+.login #nav {
+    font-size: 16px;
+    margin: 0;
+    padding: 50px 0;
+}
+
+.login #nav:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.login #nav a {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0 10px 0 0;
+    border-right: 2px solid #d8d9dd;
+    float: left;
+}
+
+.login #nav a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+@media all and (max-width: 480px) {
+    .login #nav a {
+        display: block;
+        margin: 0 0 5px;
+        padding: 0;
+        border-right: none;
+        float: none;
+    }
+
+    .login #nav a:last-child {
+        margin: 0;
+    }
+}
+
+/* =============================================================
+ * Hidden elements
+ * =============================================================
+ */
+.admin-email__heading,
+#reg_passmail,
+#backtoblog,
+.privacy-policy-page-link {
+    display: none;
+}

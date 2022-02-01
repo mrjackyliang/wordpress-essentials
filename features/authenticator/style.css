@@ -1,0 +1,22 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * QR code section.
+ * =============================================================
+ */
+#authenticator_qr_info {
+    background: #fff;
+    width: 256px;
+    height: 256px;
+    margin: 5px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#authenticator_qr_code,
+#authenticator_qr_code img {
+    width: 256px;
+    height: 256px;
+}

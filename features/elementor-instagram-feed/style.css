@@ -1,0 +1,39 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * Feed
+ * =============================================================
+ */
+.instagram-feed {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.instagram-feed .photo {
+    flex: 1 0 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.instagram-feed .photo a {
+    display: block;
+}
+
+.instagram-feed .photo a img {
+    width: auto;
+    height: 150px;
+}
+
+.instagram-feed .photo a span {
+    width: auto;
+    height: 150px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

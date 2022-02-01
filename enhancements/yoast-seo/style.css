@@ -1,0 +1,19 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * Dashboard widget feed
+ * =============================================================
+ */
+#yoast-seo-dashboard-widget .wordpress-feed {
+    display: none !important;
+}
+
+/* =============================================================
+ * Floating save button
+ * =============================================================
+ */
+#wpseo-submit-container-fixed.wpseo-admin-submit-fixed {
+    display: none !important;
+}

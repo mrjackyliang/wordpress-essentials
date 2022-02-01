@@ -1,0 +1,132 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * Widget base
+ * =============================================================
+ */
+.my-account-widget {
+    display: flex;
+}
+
+.my-account-widget:hover .my-account-content {
+    display: block;
+}
+
+.my-account-widget.my-account-position-left {
+    justify-content: flex-start;
+}
+
+.my-account-widget.my-account-position-center {
+    justify-content: center;
+}
+
+.my-account-widget.my-account-position-right {
+    justify-content: flex-end;
+}
+
+.my-account-widget nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* =============================================================
+ * Widget profile
+ * =============================================================
+ */
+.my-account-widget .my-account-profile {
+    display: flex;
+    align-items: center;
+}
+
+.my-account-widget.my-account-theme-light .my-account-profile {
+    color: #000000;
+}
+
+.my-account-widget.my-account-theme-dark .my-account-profile {
+    color: #ffffff;
+}
+
+.my-account-widget .my-account-profile:hover {
+    text-decoration: none;
+}
+
+.my-account-widget .my-account-profile .my-account-profile-name {
+    margin-right: 15px;
+}
+
+.my-account-widget .my-account-profile .my-account-profile-avatar img {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+/* =============================================================
+ * Widget content
+ * =============================================================
+ */
+.my-account-widget .my-account-content {
+    display: none;
+    width: 280px;
+    margin-top: 30px;
+    padding-top: 15px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.my-account-widget.my-account-theme-light .my-account-content a {
+    color: #000000;
+}
+
+.my-account-widget.my-account-theme-dark .my-account-content a {
+    color: #ffffff;
+}
+
+.my-account-widget .my-account-content-inner {
+    padding: 20px;
+    border: 2px solid;
+}
+
+.my-account-widget.my-account-theme-light .my-account-content-inner {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.my-account-widget.my-account-theme-dark .my-account-content-inner {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+
+/* =============================================================
+ * Widget menu
+ * =============================================================
+ */
+.my-account-widget .my-account-menu .my-account-menu-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.my-account-widget.my-account-theme-light .my-account-menu .my-account-menu-title {
+    color: #000000;
+}
+
+.my-account-widget.my-account-theme-dark .my-account-menu .my-account-menu-title {
+    color: #ffffff;
+}
+
+.my-account-widget .my-account-menu .my-account-menu-separator {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.my-account-widget.my-account-theme-light .my-account-menu .my-account-menu-separator {
+    border-bottom-color: #000000;
+}
+
+.my-account-widget.my-account-theme-dark .my-account-menu .my-account-menu-separator {
+    border-bottom-color: #ffffff;
+}

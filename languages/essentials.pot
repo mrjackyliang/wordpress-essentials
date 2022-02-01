@@ -1,0 +1,1455 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Essentials\n"
+"POT-Creation-Date: 2020-03-04 14:07-0500\n"
+"PO-Revision-Date: 2018-04-27 22:22-0400\n"
+"Last-Translator: Jacky Liang <coolboii@me.com>\n"
+"Language-Team: Jacky Liang <coolboii@me.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: init.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: features/anti-spam/register.php:109
+msgctxt "comment spam"
+msgid "javascript required"
+msgstr ""
+
+#: features/anti-spam/register.php:111
+msgctxt "comment spam"
+msgid "invalid or expired session"
+msgstr ""
+
+#: features/anti-spam/register.php:117
+msgctxt "comment spam"
+msgid "no robots allowed"
+msgstr ""
+
+#: features/anti-spam/register.php:125
+#, php-format
+msgid "<strong>ERROR</strong>: The comment could not be saved (%s)."
+msgstr ""
+
+#: features/anti-spam/register.php:136
+#, php-format
+msgid "<a href=\"%s\">&laquo; Back</a>"
+msgstr ""
+
+#: features/authenticator/register.php:149
+#: features/authenticator/register.php:166
+msgid "Verification Code"
+msgstr ""
+
+#: features/authenticator/register.php:225
+msgid "The username or app password is incorrect."
+msgstr ""
+
+#: features/authenticator/register.php:232
+#: features/authenticator/register.php:248
+msgid ""
+"<strong>ERROR</strong>: The username, email address, password, or "
+"verification code is incorrect."
+msgstr ""
+
+#: features/authenticator/register.php:319
+#: features/authenticator/register.php:540
+#: features/authenticator/register.php:637
+msgid "Two-factor authentication"
+msgstr ""
+
+#: features/authenticator/register.php:323
+#: features/authenticator/register.php:546
+msgid "Enable"
+msgstr ""
+
+#: features/authenticator/register.php:328
+#: features/authenticator/register.php:551
+msgid "Enable two-factor authentication"
+msgstr ""
+
+#: features/authenticator/register.php:334
+#: features/authenticator/register.php:427
+#: features/authenticator/register.php:464
+msgid "Your QR Code"
+msgstr ""
+
+#: features/authenticator/register.php:335
+#: features/authenticator/register.php:337
+msgid "Re-generate QR Code"
+msgstr ""
+
+#: features/authenticator/register.php:349
+msgid ""
+"Use the <a href=\"http://support.google.com/accounts/answer/1066447\" target="
+"\"_blank\">Google Authenticator</a> app to scan code."
+msgstr ""
+
+#: features/authenticator/register.php:365
+#: features/authenticator/register.php:558
+msgid "App Password"
+msgstr ""
+
+#: features/authenticator/register.php:370
+#: features/authenticator/register.php:563
+msgid "Enable app password (optional)"
+msgstr ""
+
+#: features/authenticator/register.php:380
+msgid "Create a different password"
+msgstr ""
+
+#: features/authenticator/register.php:389
+#: features/authenticator/register.php:480
+msgid "Please <strong>save</strong> this password somewhere securely!"
+msgstr ""
+
+#: features/authenticator/register.php:398
+msgid "Click the link above to create a new password."
+msgstr ""
+
+#: features/authenticator/register.php:488
+msgid "Update Profile"
+msgstr ""
+
+#: features/authenticator/register.php:658
+msgid "ON"
+msgstr ""
+
+#: features/authenticator/register.php:660
+msgid "OFF"
+msgstr ""
+
+#: features/authenticator/register.php:662
+msgctxt "not available"
+msgid "N/A"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:92
+#: features/forms/cbnventures/update-card/form.php:116
+#: features/forms/cratebee/contact/form.php:92
+#: features/forms/foodflare/partners/form.php:92
+#: features/forms/jackyliang/contact/form.php:92
+#: features/forms/jackyliang/quote/form.php:91
+#: features/forms/jackyliang/subscribe/form.php:119
+msgctxt "form error"
+msgid "There was a problem with your submission, please try again."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:101
+#: features/forms/cbnventures/update-card/form.php:125
+#: features/forms/cratebee/contact/form.php:101
+#: features/forms/foodflare/partners/form.php:101
+#: features/forms/jackyliang/contact/form.php:101
+#: features/forms/jackyliang/quote/form.php:100
+#: features/forms/jackyliang/subscribe/form.php:128
+msgctxt "form error"
+msgid "Server is busy. Please try submitting again a while later."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:112
+#: features/forms/cratebee/contact/form.php:112
+#: features/forms/foodflare/partners/form.php:112
+#: features/forms/jackyliang/contact/form.php:112
+#: features/forms/jackyliang/quote/form.php:111
+msgctxt "form error"
+msgid "Please enter your name."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:124
+#: features/forms/cratebee/contact/form.php:124
+#: features/forms/foodflare/partners/form.php:124
+#: features/forms/jackyliang/contact/form.php:124
+#: features/forms/jackyliang/quote/form.php:123
+#: features/forms/jackyliang/subscribe/form.php:139
+msgctxt "form error"
+msgid "Please enter your email address."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:133
+#: features/forms/cratebee/contact/form.php:133
+#: features/forms/foodflare/partners/form.php:133
+#: features/forms/jackyliang/contact/form.php:133
+#: features/forms/jackyliang/quote/form.php:132
+#: features/forms/jackyliang/subscribe/form.php:148
+msgctxt "form error"
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:151
+#: features/forms/cratebee/contact/form.php:150
+#: features/forms/foodflare/partners/form.php:150
+#: features/forms/jackyliang/contact/form.php:150
+msgctxt "form error"
+msgid "Please choose a subject."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:163
+#: features/forms/cratebee/contact/form.php:162
+#: features/forms/foodflare/partners/form.php:162
+#: features/forms/jackyliang/contact/form.php:162
+msgctxt "form error"
+msgid "Please enter a message."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:172
+#: features/forms/cratebee/contact/form.php:171
+#: features/forms/foodflare/partners/form.php:171
+#: features/forms/jackyliang/contact/form.php:171
+msgctxt "form error"
+msgid "Please enter a longer message."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:181
+#: features/forms/cratebee/contact/form.php:180
+#: features/forms/foodflare/partners/form.php:180
+#: features/forms/jackyliang/contact/form.php:180
+msgctxt "form error"
+msgid "Please enter a shorter message."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:201
+#: features/forms/cratebee/contact/form.php:200
+#: features/forms/foodflare/partners/form.php:200
+#, php-format
+msgctxt "form success"
+msgid "Thank you for your message! The %s team will be in touch with you soon."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:206
+#: features/forms/cbnventures/update-card/form.php:261
+msgctxt "brand"
+msgid "CBN Ventures"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:245
+#: features/forms/cbnventures/update-card/form.php:306
+#: features/forms/cratebee/contact/form.php:244
+#: features/forms/foodflare/partners/form.php:244
+#: features/forms/jackyliang/contact/form.php:237
+#: features/forms/jackyliang/quote/form.php:215
+#: features/forms/jackyliang/subscribe/form.php:285
+msgctxt "form label"
+msgid "Your Email"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:246
+#: features/forms/cbnventures/update-card/form.php:307
+#: features/forms/cratebee/contact/form.php:245
+#: features/forms/foodflare/partners/form.php:245
+#: features/forms/jackyliang/contact/form.php:238
+#: features/forms/jackyliang/quote/form.php:216
+#: features/forms/jackyliang/subscribe/form.php:286
+msgctxt "form label"
+msgid "Website"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:247
+#: features/forms/cbnventures/update-card/form.php:308
+#: features/forms/cratebee/contact/form.php:246
+#: features/forms/foodflare/partners/form.php:246
+#: features/forms/jackyliang/contact/form.php:239
+#: features/forms/jackyliang/quote/form.php:217
+#: features/forms/jackyliang/subscribe/form.php:287
+msgctxt "form error"
+msgid "Please enable JavaScript to use this form."
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:248
+#: features/forms/cratebee/contact/form.php:247
+#: features/forms/foodflare/partners/form.php:247
+#: features/forms/jackyliang/contact/form.php:240
+#: features/forms/jackyliang/quote/form.php:218
+msgctxt "form label"
+msgid "Your Name"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:249
+#: features/forms/cratebee/contact/form.php:248
+#: features/forms/foodflare/partners/form.php:248
+#: features/forms/jackyliang/contact/form.php:241
+#: features/forms/jackyliang/quote/form.php:219
+msgctxt "form label"
+msgid "Your Email Address"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:250
+#: features/forms/cratebee/contact/form.php:249
+#: features/forms/jackyliang/contact/form.php:242
+msgctxt "form label"
+msgid "Subject"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:251
+#: features/forms/cratebee/contact/form.php:250
+#: features/forms/foodflare/partners/form.php:250
+#: features/forms/jackyliang/contact/form.php:243
+msgctxt "form option"
+msgid "Please select one"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:252
+msgctxt "form option"
+msgid "Copyright Issues"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:253
+msgctxt "form option"
+msgid "Domain Names"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:254
+msgctxt "form option"
+msgid "Products and Services"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:255
+msgctxt "form option"
+msgid "Our Privacy Policy"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:256
+#: features/forms/cratebee/contact/form.php:254
+#: features/forms/foodflare/partners/form.php:254
+#: features/forms/jackyliang/contact/form.php:247
+msgctxt "form label"
+msgid "Your Message"
+msgstr ""
+
+#: features/forms/cbnventures/contact/form.php:257
+#: features/forms/cratebee/contact/form.php:255
+#: features/forms/foodflare/partners/form.php:255
+#: features/forms/jackyliang/contact/form.php:248
+msgctxt "form button"
+msgid "Send Message"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:136
+msgctxt "form error"
+msgid "Please enter a Customer ID."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:145
+#: features/forms/register.php:98
+msgctxt "form error"
+msgid "Please enter a valid Customer ID."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:157
+msgctxt "form error"
+msgid "Please enter the cardholder's name."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:169
+msgctxt "form error"
+msgid "Please enter a billing address."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:192
+msgctxt "form error"
+msgid "Please select a country."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:209
+msgctxt "form error"
+msgid "Please enter a city."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:221
+msgctxt "form error"
+msgid "Please enter a postal code."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:234
+msgctxt "form error"
+msgid "The payment token cannot be processed. Please try again later."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:256
+#, php-format
+msgctxt "form success"
+msgid "Thank you for updating your %s card information."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:309
+msgctxt "form label"
+msgid "Customer ID"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:310
+msgctxt "form description"
+msgid "Contact customer support to retrieve your Customer ID."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:311
+msgctxt "form label"
+msgid "Cardholder's name"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:312
+msgctxt "form placeholder"
+msgid "As it appears on the card"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:313
+msgctxt "form label"
+msgid "Credit Card"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:314
+msgctxt "form label"
+msgid "Billing address"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:315
+msgctxt "form label"
+msgid "Billing address 2"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:316
+msgctxt "form placeholder"
+msgid "Apartment, suite, unit, building, floor, etc."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:317
+msgctxt "form label"
+msgid "Country"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:318
+msgctxt "country"
+msgid "United States"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:319
+msgctxt "country"
+msgid "Canada"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:320
+msgctxt "country"
+msgid "United Kingdom"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:321
+msgctxt "country"
+msgid "Australia"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:322
+msgctxt "form label"
+msgid "State / Region"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:323
+msgctxt "form label"
+msgid "City"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:324
+msgctxt "form label"
+msgid "Zip / Postal code"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:325
+msgctxt "form button"
+msgid "Update Card Information"
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:332
+#: features/forms/jackyliang/subscribe/form.php:302
+#, php-format
+msgctxt "form error"
+msgid ""
+"Please visit the <a href=\"%s\">settings page</a> to configure the API keys "
+"required for this form."
+msgstr ""
+
+#: features/forms/cbnventures/update-card/form.php:346
+#: features/forms/jackyliang/subscribe/form.php:316
+msgctxt "form error"
+msgid ""
+"Sorry! This form is not configured for use. Please contact the site owner "
+"for more details."
+msgstr ""
+
+#: features/forms/cratebee/contact/form.php:205
+msgctxt "brand"
+msgid "Cratebee"
+msgstr ""
+
+#: features/forms/cratebee/contact/form.php:251
+msgctxt "form option"
+msgid "Product Support"
+msgstr ""
+
+#: features/forms/cratebee/contact/form.php:252
+msgctxt "form option"
+msgid "Partnership Inquiries"
+msgstr ""
+
+#: features/forms/cratebee/contact/form.php:253
+msgctxt "form option"
+msgid "Other Inquiries"
+msgstr ""
+
+#: features/forms/foodflare/partners/form.php:205
+msgctxt "brand"
+msgid "FoodFlare"
+msgstr ""
+
+#: features/forms/foodflare/partners/form.php:249
+msgctxt "form label"
+msgid "Occupation"
+msgstr ""
+
+#: features/forms/foodflare/partners/form.php:251
+msgctxt "form option"
+msgid "Restaurant Owner"
+msgstr ""
+
+#: features/forms/foodflare/partners/form.php:252
+msgctxt "form option"
+msgid "Social Media Influencer"
+msgstr ""
+
+#: features/forms/foodflare/partners/form.php:253
+msgctxt "form option"
+msgid "Food Blogger"
+msgstr ""
+
+#: features/forms/jackyliang/contact/form.php:199
+msgctxt "form success"
+msgid "Thank you for your message! I will get back to you as soon as possible."
+msgstr ""
+
+#: features/forms/jackyliang/contact/form.php:244
+msgctxt "form option"
+msgid "General Inquiry"
+msgstr ""
+
+#: features/forms/jackyliang/contact/form.php:245
+msgctxt "form option"
+msgid "Business Partnership"
+msgstr ""
+
+#: features/forms/jackyliang/contact/form.php:246
+msgctxt "form option"
+msgid "Client Inquiries"
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:144
+msgctxt "form error"
+msgid "Please enter a phone number."
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:153
+#: features/forms/jackyliang/subscribe/form.php:179
+#: features/forms/register.php:93
+msgctxt "form error"
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:177
+msgctxt "form success"
+msgid "Thank you for your request! Please expect a response within 24 hours."
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:220
+#: features/forms/jackyliang/subscribe/form.php:291
+msgctxt "form label"
+msgid "Phone Number"
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:221
+#: features/forms/jackyliang/subscribe/form.php:292
+msgctxt "form placeholder"
+msgid "+1xxx0009999"
+msgstr ""
+
+#: features/forms/jackyliang/quote/form.php:222
+msgctxt "form button"
+msgid "Get Consulted"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:160
+msgctxt "form error"
+msgid "Please enter your first name."
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:196
+#: features/forms/register.php:103
+msgctxt "form error"
+msgid "Please read and accept the Marketing Permissions."
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:238
+msgctxt "form success"
+msgid ""
+"You rock! To complete the signup, please check your email and click on the "
+"link I just sent you."
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:288
+msgctxt "form label"
+msgid "Email Address"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:289
+msgctxt "form label"
+msgid "First Name"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:290
+msgctxt "form label"
+msgid "Last Name"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:293
+msgctxt "form label"
+msgid "Marketing Permissions"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:294
+msgctxt "form label"
+msgid "I Consent"
+msgstr ""
+
+#: features/forms/jackyliang/subscribe/form.php:295
+msgctxt "form button"
+msgid "Subscribe"
+msgstr ""
+
+#: features/forms/register.php:108
+msgctxt "form error"
+msgid "Please keep this field empty."
+msgstr ""
+
+#: features/security/last-login.php:72
+msgid "Never logged in"
+msgstr ""
+
+#: features/security/last-login.php:92
+msgid "Last login"
+msgstr ""
+
+#: features/security/network.php:41 features/security/network.php:45
+#: features/security/network.php:63
+msgid "Network Security"
+msgstr ""
+
+#: features/security/network.php:64
+msgid ""
+"This tool helps strengthen the network user security. Please create a "
+"database backup before you proceed."
+msgstr ""
+
+#: features/security/network.php:65
+msgid "Reset Passwords"
+msgstr ""
+
+#: features/security/network.php:111
+msgid ""
+"Due to security reasons, we have requested to revoke your account password."
+msgstr ""
+
+#: features/security/network.php:112
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: features/security/network.php:113
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: features/security/network.php:114
+msgid ""
+"For more information regarding this action, please contact the administrator "
+"or support team."
+msgstr ""
+
+#: features/security/network.php:115
+msgid "To request a password reset email, visit the following address:"
+msgstr ""
+
+#: features/security/network.php:126
+msgid "Password Revoked"
+msgstr ""
+
+#: features/security/network.php:140
+#, php-format
+msgid ""
+"All users have been logged out and passwords have been reset. Please <a href="
+"\"%s\">refresh this page</a> to login."
+msgstr ""
+
+#: features/security/network.php:160
+msgid "Are you sure you want to reset all user passwords?"
+msgstr ""
+
+#: features/security/network.php:170
+msgid "Reset all passwords"
+msgstr ""
+
+#: features/shortcodes/embed-page.php:43
+msgid "Cannot embed page. The page path is invalid."
+msgstr ""
+
+#: features/widgets/instagram/base.php:56 features/widgets/twitter/base.php:79
+msgctxt "api error"
+msgid "Credentials are incomplete"
+msgstr ""
+
+#: features/widgets/instagram/base.php:136
+#: features/widgets/twitter/base.php:220
+msgctxt "api error"
+msgid "Unknown error or response"
+msgstr ""
+
+#: features/widgets/instagram/base.php:173
+#: features/widgets/twitter/base.php:368
+msgctxt "api error"
+msgid "Request type is invalid"
+msgstr ""
+
+#: features/widgets/instagram/base.php:203
+msgctxt "api error"
+msgid "Feed count must be greater than 0"
+msgstr ""
+
+#: features/widgets/instagram/base.php:208
+msgctxt "api error"
+msgid "Link target is invalid"
+msgstr ""
+
+#: features/widgets/instagram/base.php:213
+msgctxt "api error"
+msgid "Image style is invalid"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:27
+#: features/widgets/instagram/widget.php:39
+msgctxt "brand"
+msgid "Instagram"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:35
+#: features/widgets/twitter/widget.php:35
+#, php-format
+msgid "Entries from your %s feed."
+msgstr ""
+
+#: features/widgets/instagram/widget.php:117
+#: features/widgets/twitter/widget.php:121
+msgid "Title:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:128
+msgid "Number of images to show:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:143
+msgid "Link opens in:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:148
+msgid "Current window or tab"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:151
+msgid "New window or tab"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:158
+msgid "Image displays as:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:163
+msgid "Image tag"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:166
+msgid "Background image"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:174
+msgid "User ID:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:185
+msgid "Access Token:"
+msgstr ""
+
+#: features/widgets/instagram/widget.php:195
+#: features/widgets/twitter/widget.php:217
+msgid "New changes may take up to 15 minutes to show on your site."
+msgstr ""
+
+#: features/widgets/twitter/base.php:395
+msgctxt "api error"
+msgid "Screen name is empty"
+msgstr ""
+
+#: features/widgets/twitter/base.php:400
+msgctxt "api error"
+msgid "\"include_retweets\" must be TRUE or FALSE"
+msgstr ""
+
+#: features/widgets/twitter/base.php:405
+msgctxt "api error"
+msgid "Tweet count must be greater than 0"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:27
+#: features/widgets/twitter/widget.php:39
+msgctxt "brand"
+msgid "Twitter"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:132
+msgid "Retweets:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:139
+msgid "Exclude retweets"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:142
+msgid "Include retweets"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:148
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:163
+msgid "Screen name:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:174
+msgid "OAuth Access Token:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:185
+msgid "OAuth Access Token Secret:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:196
+msgid "Consumer Key:"
+msgstr ""
+
+#: features/widgets/twitter/widget.php:207
+msgid "Consumer Secret:"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:100
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:107
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:175
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:192
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:213
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:333
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:470
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:643
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:715
+msgid "Alipay Mobile"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:103
+#: features/woocommerce/gateways/wechat-pay/gateway.php:94
+#, php-format
+msgid ""
+"%s allows customers to pay by scanning a QR code using the %s mobile app."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:111
+msgctxt "brand"
+msgid "Alipay"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:164
+#: features/woocommerce/gateways/gilt-city/gateway.php:111
+#: features/woocommerce/gateways/groupon/gateway.php:111
+#: features/woocommerce/gateways/livingsocial/gateway.php:111
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:109
+#: features/woocommerce/gateways/wechat-pay/gateway.php:154
+msgid "Enable/Disable"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:171
+#: features/woocommerce/gateways/gilt-city/gateway.php:118
+#: features/woocommerce/gateways/groupon/gateway.php:118
+#: features/woocommerce/gateways/livingsocial/gateway.php:118
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:116
+#: features/woocommerce/gateways/wechat-pay/gateway.php:161
+msgid "Enable this to accept"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:183
+#: features/woocommerce/gateways/gilt-city/gateway.php:132
+#: features/woocommerce/gateways/groupon/gateway.php:132
+#: features/woocommerce/gateways/livingsocial/gateway.php:132
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:129
+#: features/woocommerce/gateways/wechat-pay/gateway.php:174
+msgid "Title"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:188
+#: features/woocommerce/gateways/gilt-city/gateway.php:137
+#: features/woocommerce/gateways/groupon/gateway.php:137
+#: features/woocommerce/gateways/livingsocial/gateway.php:137
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:134
+#: features/woocommerce/gateways/wechat-pay/gateway.php:179
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:199
+#: features/woocommerce/gateways/gilt-city/gateway.php:149
+#: features/woocommerce/gateways/groupon/gateway.php:149
+#: features/woocommerce/gateways/livingsocial/gateway.php:149
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:145
+#: features/woocommerce/gateways/wechat-pay/gateway.php:191
+msgid "Description"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:204
+#: features/woocommerce/gateways/gilt-city/gateway.php:154
+#: features/woocommerce/gateways/groupon/gateway.php:154
+#: features/woocommerce/gateways/livingsocial/gateway.php:154
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:150
+#: features/woocommerce/gateways/wechat-pay/gateway.php:196
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:209
+#: features/woocommerce/gateways/wechat-pay/gateway.php:201
+#, php-format
+msgid ""
+"Pay via %s; after placing your order, please follow the instructions to scan "
+"the payment code."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:222
+#: features/woocommerce/gateways/gilt-city/gateway.php:172
+#: features/woocommerce/gateways/groupon/gateway.php:172
+#: features/woocommerce/gateways/livingsocial/gateway.php:172
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:167
+#: features/woocommerce/gateways/wechat-pay/gateway.php:215
+msgid "Instructions"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:227
+#: features/woocommerce/gateways/gilt-city/gateway.php:177
+#: features/woocommerce/gateways/groupon/gateway.php:177
+#: features/woocommerce/gateways/livingsocial/gateway.php:177
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:172
+#: features/woocommerce/gateways/wechat-pay/gateway.php:220
+msgid "This controls the instructions after the order has been received."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:231
+#: features/woocommerce/gateways/wechat-pay/gateway.php:224
+msgid ""
+"To proceed with payment, please follow the instructions below. Your order "
+"won’t be shipped until the funds have cleared in our account."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:239
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:362
+msgid "Real Name"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:244
+#: features/woocommerce/gateways/wechat-pay/gateway.php:237
+msgid "This controls the account name shown to the user."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:253
+msgid "Account Email"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:258
+msgid ""
+"This controls the account email shown to the user. To protect your privacy, "
+"this email is partially shown."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:267
+#: features/woocommerce/gateways/wechat-pay/gateway.php:246
+msgid "QR Code URL"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:273
+msgid ""
+"Retrieve the QR code from the <b>Alipay app > Friends tab > Add (+) > "
+"Collect</b>. Scan the QR code, then paste the scanned result above."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:323
+#: features/woocommerce/gateways/wechat-pay/gateway.php:302
+#, php-format
+msgid ""
+"%s does not support your store currency. Please <a href=\"%s\">set currency</"
+"a> to Chinese yuan."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:369
+msgid "DOEJOHN"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:374
+msgid "Username"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:381
+msgid "Email, Phone Number or Taobao Username"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:411
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:216
+#: features/woocommerce/gateways/wechat-pay/gateway.php:376
+msgid "Awaiting payment"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:453
+#: features/woocommerce/gateways/wechat-pay/gateway.php:402
+msgid "Scan to Pay"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:460
+#: features/woocommerce/gateways/wechat-pay/gateway.php:409
+msgid "To scan, enable remote images."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:466
+#: features/woocommerce/gateways/wechat-pay/gateway.php:415
+#, php-format
+msgid ""
+"You have chosen to pay with %s. To continue, follow the secure payment "
+"instructions below."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:483
+#: features/woocommerce/gateways/wechat-pay/gateway.php:478
+msgid "Mobile & Tablet"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:489
+#: features/woocommerce/gateways/wechat-pay/gateway.php:484
+msgid "Press on then save the QR code shown above."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:498
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:556
+msgid "Open the Alipay app, then tap on <b>Scan</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:511
+msgid "Once the camera opens, tap on <b>Album</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:523
+#: features/woocommerce/gateways/wechat-pay/gateway.php:518
+msgid "Select the QR code you saved earlier."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:533
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:578
+#, php-format
+msgid "Enter <b>%s</b> on the order total, then tap <b>Pay</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:549
+#: features/woocommerce/gateways/wechat-pay/gateway.php:544
+msgid "Desktop"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:568
+msgid "Scan the QR code shown above with the Alipay app."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:594
+#: features/woocommerce/gateways/wechat-pay/gateway.php:602
+msgid "Payment Information"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:602
+#: features/woocommerce/gateways/wechat-pay/gateway.php:610
+msgid "<b>Payee:</b>"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:620
+msgid "<b>Account:</b>"
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:639
+#: features/woocommerce/gateways/wechat-pay/gateway.php:629
+#, php-format
+msgid ""
+"%s is not ready to accept payment. Please contact customer service for more "
+"information."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:760
+msgid "Please enter your Alipay real name."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:771
+msgid "Please enter your Alipay username."
+msgstr ""
+
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:792
+#: features/woocommerce/gateways/alipay-mobile/gateway.php:801
+#: features/woocommerce/gateways/gilt-city/gateway.php:397
+#: features/woocommerce/gateways/gilt-city/gateway.php:406
+#: features/woocommerce/gateways/groupon/gateway.php:358
+#: features/woocommerce/gateways/groupon/gateway.php:367
+#: features/woocommerce/gateways/livingsocial/gateway.php:358
+#: features/woocommerce/gateways/livingsocial/gateway.php:367
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:244
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:253
+#: features/woocommerce/gateways/wechat-pay/gateway.php:767
+#: features/woocommerce/gateways/wechat-pay/gateway.php:776
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:73
+#: features/woocommerce/gateways/gilt-city/gateway.php:80
+#: features/woocommerce/gateways/gilt-city/gateway.php:122
+#: features/woocommerce/gateways/gilt-city/gateway.php:141
+#: features/woocommerce/gateways/gilt-city/gateway.php:163
+#: features/woocommerce/gateways/gilt-city/gateway.php:186
+#: features/woocommerce/gateways/gilt-city/gateway.php:303
+#: features/woocommerce/gateways/gilt-city/gateway.php:353
+#: features/woocommerce/gateways/gilt-city/gateway.php:371
+msgctxt "brand"
+msgid "Gilt City"
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:76
+#: features/woocommerce/gateways/groupon/gateway.php:76
+#: features/woocommerce/gateways/livingsocial/gateway.php:76
+#, php-format
+msgid ""
+"%1$s allows customers to redeem vouchers purchased through the %1$s website."
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:159
+#: features/woocommerce/gateways/groupon/gateway.php:159
+#: features/woocommerce/gateways/livingsocial/gateway.php:159
+#, php-format
+msgid ""
+"Pay using %s vouchers; after placing your order, we will redeem your voucher "
+"manually and confirm your order."
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:182
+#: features/woocommerce/gateways/groupon/gateway.php:182
+#: features/woocommerce/gateways/livingsocial/gateway.php:182
+#, php-format
+msgid ""
+"We will verify your order details and redeem your %s voucher. If there are "
+"any order issues, we will attempt to contact you."
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:220
+#: features/woocommerce/gateways/groupon/gateway.php:220
+#: features/woocommerce/gateways/livingsocial/gateway.php:220
+msgid "Voucher"
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:233
+msgid "PIN"
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:271
+#: features/woocommerce/gateways/groupon/gateway.php:256
+#: features/woocommerce/gateways/livingsocial/gateway.php:256
+msgid "Awaiting voucher redemption"
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:349
+#, php-format
+msgid "Invalid %s voucher. Please re-enter your voucher again."
+msgstr ""
+
+#: features/woocommerce/gateways/gilt-city/gateway.php:367
+#, php-format
+msgid "Invalid %s voucher PIN. Please re-enter your voucher PIN again."
+msgstr ""
+
+#: features/woocommerce/gateways/groupon/gateway.php:73
+#: features/woocommerce/gateways/groupon/gateway.php:80
+#: features/woocommerce/gateways/groupon/gateway.php:122
+#: features/woocommerce/gateways/groupon/gateway.php:141
+#: features/woocommerce/gateways/groupon/gateway.php:163
+#: features/woocommerce/gateways/groupon/gateway.php:186
+#: features/woocommerce/gateways/groupon/gateway.php:288
+#: features/woocommerce/gateways/groupon/gateway.php:338
+msgctxt "brand"
+msgid "Groupon"
+msgstr ""
+
+#: features/woocommerce/gateways/groupon/gateway.php:227
+#: features/woocommerce/gateways/livingsocial/gateway.php:227
+msgctxt "function word"
+msgid "or"
+msgstr ""
+
+#: features/woocommerce/gateways/groupon/gateway.php:334
+#: features/woocommerce/gateways/livingsocial/gateway.php:334
+#, php-format
+msgid "Invalid %s voucher(s). Please re-enter your voucher(s) again."
+msgstr ""
+
+#: features/woocommerce/gateways/livingsocial/gateway.php:73
+#: features/woocommerce/gateways/livingsocial/gateway.php:80
+#: features/woocommerce/gateways/livingsocial/gateway.php:122
+#: features/woocommerce/gateways/livingsocial/gateway.php:141
+#: features/woocommerce/gateways/livingsocial/gateway.php:163
+#: features/woocommerce/gateways/livingsocial/gateway.php:186
+#: features/woocommerce/gateways/livingsocial/gateway.php:288
+#: features/woocommerce/gateways/livingsocial/gateway.php:338
+msgctxt "brand"
+msgid "LivingSocial"
+msgstr ""
+
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:73
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:80
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:120
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:138
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:159
+msgid "Pay by Phone"
+msgstr ""
+
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:76
+#, php-format
+msgid "%s allows customers to discuss payment details over the phone."
+msgstr ""
+
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:155
+#, php-format
+msgid ""
+"%s; after placing your order, please contact customer service to discuss "
+"payment details over the phone."
+msgstr ""
+
+#: features/woocommerce/gateways/pay-by-phone/gateway.php:176
+msgid ""
+"To complete payment for your order, please contact customer service as soon "
+"as possible."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:91
+#: features/woocommerce/gateways/wechat-pay/gateway.php:98
+#: features/woocommerce/gateways/wechat-pay/gateway.php:165
+#: features/woocommerce/gateways/wechat-pay/gateway.php:183
+#: features/woocommerce/gateways/wechat-pay/gateway.php:312
+#: features/woocommerce/gateways/wechat-pay/gateway.php:419
+#: features/woocommerce/gateways/wechat-pay/gateway.php:633
+#: features/woocommerce/gateways/wechat-pay/gateway.php:706
+msgctxt "service"
+msgid "WeChat Pay"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:103
+#: features/woocommerce/gateways/wechat-pay/gateway.php:205
+#: features/woocommerce/gateways/wechat-pay/gateway.php:433
+msgctxt "brand"
+msgid "WeChat"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:232
+msgid "Account Name"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:252
+msgid ""
+"Retrieve the QR code from the <b>WeChat app > Add (+) > Money > Receive "
+"money</b>. Scan the QR code, then paste the scanned result above."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:342
+msgid "WeChat ID"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:348
+msgid "Phone, WeChat ID, or Email"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:439
+msgid "Hold down the QR code shown above."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:448
+msgid "When the hidden menu appears, tap on <b>Extract QR code</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:462
+#: features/woocommerce/gateways/wechat-pay/gateway.php:528
+#: features/woocommerce/gateways/wechat-pay/gateway.php:586
+#, php-format
+msgid "Enter <b>%s</b> on the amount field, then tap <b>Transfer</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:493
+msgid "Open the WeChat app, then tap on <b>+</b>"
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:506
+msgid "Tap on <b>Scan QR Code</b> then select <b>Album</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:551
+msgid "Open the WeChat app, then tap on <b>+</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:564
+msgid "After the menu displays, tap on <b>Scan QR Code</b>."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:576
+msgid "Scan the QR code above with the WeChat app."
+msgstr ""
+
+#: features/woocommerce/gateways/wechat-pay/gateway.php:749
+msgid "Please enter your WeChat ID."
+msgstr ""
+
+#: settings/functions.php:72
+msgid "Maintenance Mode"
+msgstr ""
+
+#: settings/functions.php:77
+#, php-format
+msgid "%s is down for maintenance. We will be back shortly!"
+msgstr ""
+
+#: settings/functions.php:100
+#, php-format
+msgid ""
+"%s is not available to the public at this time. Please <a href=\"%s"
+"\">disable maintenance mode</a> once you are done."
+msgstr ""
+
+#: settings/network-admin.php:43 settings/single-admin.php:54
+#: settings/single-admin.php:210
+msgid "Website Essentials"
+msgstr ""
+
+#: settings/network-admin.php:47
+msgid "Network Message"
+msgstr ""
+
+#: settings/network-admin.php:59
+msgid "Set a message for every site on this network."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: settings/single-admin.php:58
+msgid "Essentials"
+msgstr ""
+
+#: settings/single-admin.php:85
+msgid "Maintenance mode"
+msgstr ""
+
+#: settings/single-admin.php:100 settings/single-admin.php:271
+msgid "Modifications"
+msgstr ""
+
+#: settings/single-admin.php:112
+msgctxt "brand"
+msgid "Stripe"
+msgstr ""
+
+#: settings/single-admin.php:124
+msgid "Publishable Key"
+msgstr ""
+
+#: settings/single-admin.php:139
+msgid "Secret Key"
+msgstr ""
+
+#: settings/single-admin.php:154
+msgctxt "brand"
+msgid "MailChimp"
+msgstr ""
+
+#: settings/single-admin.php:166
+msgid "API Key"
+msgstr ""
+
+#: settings/single-admin.php:181
+msgid "Audience ID"
+msgstr ""
+
+#: settings/single-admin.php:252
+msgid "Disabled"
+msgstr ""
+
+#: settings/single-admin.php:253
+msgid "Enabled"
+msgstr ""
+
+#: settings/single-admin.php:274
+msgid "Remove version number from website styles and scripts"
+msgstr ""
+
+#: settings/single-admin.php:275
+msgid "Show only posts in search results"
+msgstr ""
+
+#: wordpress/admin-bar.php:51
+#, php-format
+msgid "Welcome back, %1$s"
+msgstr ""
+
+#: wordpress/admin.php:78
+msgid "Network Admin: "
+msgstr ""
+
+#: wordpress/admin.php:197
+#, php-format
+msgid "Copyright &copy; %1$s CBN Ventures LLC. All Rights Reserved."
+msgstr ""
+
+#: wordpress/admin.php:215
+msgid "Since 2011"
+msgstr ""
+
+#: wordpress/login.php:112
+msgid ""
+"<strong>ERROR</strong>: The username, email address, or password is "
+"incorrect."
+msgstr ""
+
+#: wordpress/login.php:197
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://cbnventures.io/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An all-in-one toolkit for CBN Ventures network-enabled sites."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Jacky Liang"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://jackyliang.me/"
+msgstr ""

@@ -1,0 +1,29 @@
+/**
+ * Style.
+ */
+
+/* =============================================================
+ * Feed
+ * =============================================================
+ */
+.twitter-feed {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.twitter-feed .tweet {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dedede;
+}
+
+.twitter-feed .tweet:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.twitter-feed .tweet a {
+    color: #00acee;
+}
