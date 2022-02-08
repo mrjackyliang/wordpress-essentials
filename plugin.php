@@ -3,7 +3,7 @@
 Plugin Name: WordPress Essentials
 Plugin URI: https://github.com/mrjackyliang/wordpress-essentials
 Description: An all-in-one toolkit for WordPress websites containing various enhancements and features.
-Version: 1.0.0
+Version: 1.0.1
 Author: Jacky Liang
 Author URI: https://www.mrjackyliang.com/
 Text-Domain: essentials
@@ -28,7 +28,7 @@ class Plugin {
 	function __construct() {
 		// Defines.
 		define( 'ESSENTIALS_URL', plugin_dir_url( __FILE__ ) );
-		define( 'ESSENTIALS_VERSION', '1.0.0' );
+		define( 'ESSENTIALS_VERSION', '1.0.1' );
 
 		// Conditions.
 		define( 'ESSENTIALS_AKISMET_ACTIVE', is_plugin_active( 'akismet/akismet.php' ) );
